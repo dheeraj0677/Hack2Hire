@@ -1,0 +1,64 @@
+{
+  "session_id": "SESS_TIMEOUT",
+  "candidate_profile": {
+    "candidate_id": "CAND_SLOW",
+    "name": "Amit Kumar",
+    "experience_years": 3,
+    "skills": ["Python", "Django"],
+    "target_role": "Backend Developer"
+  },
+  "job_description": {
+    "role": "Backend Developer",
+    "required_skills": ["Python", "Django", "PostgreSQL"],
+    "min_experience": 2,
+    "difficulty_preference": "medium"
+  },
+  "termination_config": {
+    "max_questions": 10,
+    "max_time_seconds": 600,
+    "max_consecutive_failures": 3,
+    "min_score_threshold": 3.0,
+    "min_questions_for_threshold": 5
+  },
+  "interaction_events": [
+    {
+      "question_id": "QT1",
+      "question_text": "Explain Django's ORM and how QuerySets work.",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "Django ORM maps models to database tables. QuerySets are lazy — they don't hit the database until evaluated. You can chain filters like .filter().exclude().order_by(). Select_related and prefetch_related optimize joins. QuerySets support slicing for LIMIT/OFFSET.",
+      "time_taken_seconds": 250,
+      "max_time_seconds": 300,
+      "relevance_score": 8.5,
+      "completeness_score": 7.5,
+      "accuracy_score": 8.0,
+      "communication_score": 7.5
+    },
+    {
+      "question_id": "QT2",
+      "question_text": "How does Python's GIL affect multithreading?",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "The GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecode simultaneously. For CPU-bound tasks, use multiprocessing. For I/O-bound tasks, threading still helps because the GIL is released during I/O operations. Async/await is another option for I/O-bound concurrency.",
+      "time_taken_seconds": 280,
+      "max_time_seconds": 300,
+      "relevance_score": 9.0,
+      "completeness_score": 8.0,
+      "accuracy_score": 9.0,
+      "communication_score": 8.0
+    },
+    {
+      "question_id": "QT3",
+      "question_text": "Design a caching strategy for a high-traffic Django application.",
+      "difficulty_level": "hard",
+      "category": "technical",
+      "candidate_response": "I would implement a multi-layer caching strategy. First layer: Django's per-view cache with Memcached or Redis. Second layer: template fragment caching for reusable components. Third layer: database query caching using QuerySet caching. For invalidation, I'd use cache versioning and signal-based invalidation on model save/delete. I'd also use a CDN for static assets.",
+      "time_taken_seconds": 350,
+      "max_time_seconds": 360,
+      "relevance_score": 8.5,
+      "completeness_score": 8.5,
+      "accuracy_score": 8.0,
+      "communication_score": 7.5
+    }
+  ]
+}

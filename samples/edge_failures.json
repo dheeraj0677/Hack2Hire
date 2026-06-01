@@ -1,0 +1,90 @@
+{
+  "session_id": "SESS_FAIL",
+  "candidate_profile": {
+    "candidate_id": "CAND_FAIL",
+    "name": "Test Candidate",
+    "experience_years": 1,
+    "skills": ["HTML", "CSS"],
+    "target_role": "Frontend Developer"
+  },
+  "job_description": {
+    "role": "Frontend Developer",
+    "required_skills": ["React", "TypeScript", "GraphQL", "CSS"],
+    "min_experience": 2,
+    "difficulty_preference": "medium"
+  },
+  "termination_config": {
+    "max_questions": 10,
+    "max_time_seconds": 1800,
+    "max_consecutive_failures": 3,
+    "min_score_threshold": 3.0,
+    "min_questions_for_threshold": 3
+  },
+  "interaction_events": [
+    {
+      "question_id": "QFL1",
+      "question_text": "Explain React's virtual DOM and reconciliation.",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "Virtual DOM is like a copy of the real DOM.",
+      "time_taken_seconds": 30,
+      "max_time_seconds": 300,
+      "relevance_score": 3.0,
+      "completeness_score": 1.5,
+      "accuracy_score": 2.0,
+      "communication_score": 2.0
+    },
+    {
+      "question_id": "QFL2",
+      "question_text": "What are TypeScript generics and when would you use them?",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "I don't know TypeScript very well.",
+      "time_taken_seconds": 15,
+      "max_time_seconds": 300,
+      "relevance_score": 1.0,
+      "completeness_score": 0.5,
+      "accuracy_score": 0.0,
+      "communication_score": 2.0
+    },
+    {
+      "question_id": "QFL3",
+      "question_text": "How do you manage component state in a large React application?",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "useState I think.",
+      "time_taken_seconds": 10,
+      "max_time_seconds": 180,
+      "relevance_score": 2.0,
+      "completeness_score": 1.0,
+      "accuracy_score": 1.5,
+      "communication_score": 1.5
+    },
+    {
+      "question_id": "QFL4",
+      "question_text": "Tell me about a challenging project you worked on.",
+      "difficulty_level": "easy",
+      "category": "behavioral",
+      "candidate_response": "I made a website for my college.",
+      "time_taken_seconds": 12,
+      "max_time_seconds": 180,
+      "relevance_score": 2.0,
+      "completeness_score": 1.0,
+      "accuracy_score": 2.0,
+      "communication_score": 1.5
+    },
+    {
+      "question_id": "QFL5",
+      "question_text": "What is your experience with CSS Grid vs Flexbox?",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "",
+      "time_taken_seconds": 60,
+      "max_time_seconds": 180,
+      "relevance_score": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "communication_score": 0.0
+    }
+  ]
+}

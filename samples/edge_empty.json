@@ -1,0 +1,31 @@
+{
+  "session_id": "SESS_MIN",
+  "candidate_profile": {
+    "candidate_id": "CAND_MIN",
+    "name": "Minimal Candidate",
+    "experience_years": 0,
+    "skills": [],
+    "target_role": "Intern"
+  },
+  "job_description": {
+    "role": "Intern",
+    "required_skills": ["Python"],
+    "min_experience": 0,
+    "difficulty_preference": "easy"
+  },
+  "interaction_events": [
+    {
+      "question_id": "QMIN1",
+      "question_text": "What is a variable?",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "A variable stores a value in memory. In Python, you don't need to declare the type — it's dynamically typed. You assign with the = operator.",
+      "time_taken_seconds": 60,
+      "max_time_seconds": 180,
+      "relevance_score": 8.0,
+      "completeness_score": 7.0,
+      "accuracy_score": 8.0,
+      "communication_score": 7.0
+    }
+  ]
+}

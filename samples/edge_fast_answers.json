@@ -1,0 +1,90 @@
+{
+  "session_id": "SESS_FAST",
+  "candidate_profile": {
+    "candidate_id": "CAND_SPEED",
+    "name": "Raj Patel",
+    "experience_years": 2,
+    "skills": ["Java", "Spring Boot", "MySQL"],
+    "target_role": "Backend Developer"
+  },
+  "job_description": {
+    "role": "Backend Developer",
+    "required_skills": ["Java", "Spring Boot", "MySQL", "REST APIs"],
+    "min_experience": 1,
+    "difficulty_preference": "easy"
+  },
+  "termination_config": {
+    "max_questions": 10,
+    "max_time_seconds": 1800,
+    "max_consecutive_failures": 3,
+    "min_score_threshold": 3.0,
+    "min_questions_for_threshold": 5
+  },
+  "interaction_events": [
+    {
+      "question_id": "QF1",
+      "question_text": "What is polymorphism in Java?",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "It means many forms. Method overloading and overriding.",
+      "time_taken_seconds": 5,
+      "max_time_seconds": 180,
+      "relevance_score": 6.0,
+      "completeness_score": 3.0,
+      "accuracy_score": 5.0,
+      "communication_score": 3.0
+    },
+    {
+      "question_id": "QF2",
+      "question_text": "Explain dependency injection.",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "DI means Spring injects beans. Use @Autowired.",
+      "time_taken_seconds": 8,
+      "max_time_seconds": 180,
+      "relevance_score": 5.0,
+      "completeness_score": 2.5,
+      "accuracy_score": 4.0,
+      "communication_score": 2.5
+    },
+    {
+      "question_id": "QF3",
+      "question_text": "What is a JOIN in SQL?",
+      "difficulty_level": "easy",
+      "category": "technical",
+      "candidate_response": "Join combines two tables.",
+      "time_taken_seconds": 3,
+      "max_time_seconds": 180,
+      "relevance_score": 5.0,
+      "completeness_score": 2.0,
+      "accuracy_score": 4.0,
+      "communication_score": 2.0
+    },
+    {
+      "question_id": "QF4",
+      "question_text": "Describe the Spring Bean lifecycle.",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "Bean gets created by container then destroyed.",
+      "time_taken_seconds": 4,
+      "max_time_seconds": 300,
+      "relevance_score": 4.0,
+      "completeness_score": 2.0,
+      "accuracy_score": 3.0,
+      "communication_score": 2.0
+    },
+    {
+      "question_id": "QF5",
+      "question_text": "How do you handle errors in a REST API?",
+      "difficulty_level": "medium",
+      "category": "technical",
+      "candidate_response": "Try catch and return error response.",
+      "time_taken_seconds": 6,
+      "max_time_seconds": 300,
+      "relevance_score": 4.0,
+      "completeness_score": 2.0,
+      "accuracy_score": 3.5,
+      "communication_score": 2.0
+    }
+  ]
+}
