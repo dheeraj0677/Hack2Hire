@@ -16,9 +16,6 @@ An **Interactive, AI-driven Mock Interview Platform** built to satisfy the Unsto
 4. **Time Constraints:** The frontend runs a strict 120-second timer. The backend penalizes responses that are too fast (<30%) or slow/overtime.
 5. **Adaptive Difficulty:** A sliding-window system (last 3 questions) increases difficulty for strong responses and reduces it for weak ones.
 6. **Early Termination:** Terminates early if the candidate provides no response, goes significantly over time, or performs poorly consecutively.
-7. **Comprehensive Report:** Produces a Final Interview Readiness Score (0–100), category breakdowns, and LLM-generated qualitative feedback (Strengths, Weaknesses, Hiring Readiness).
-
----
 
 ## How to Run Locally
 
@@ -44,10 +41,10 @@ python -m uvicorn api.main:app --reload --port 8000
 cd Hack2Hire/frontend
 npm install
 npm run dev
-```
+
 *The frontend UI will run on `http://localhost:5173`.*
 
----
+
 
 ## Application Flow
 
