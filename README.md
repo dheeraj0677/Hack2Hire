@@ -14,9 +14,6 @@ An **Interactive, AI-driven Mock Interview Platform** built to satisfy the Unsto
 2. **Dynamic Question Generation:** Questions are generated on the fly by Gemini based on the JD, candidate skills, category, and difficulty.
 3. **Real-time Evaluation:** The LLM evaluates responses across 4 strict criteria: **Accuracy, Clarity, Depth, and Relevance** (0–10 scale).
 4. **Time Constraints:** The frontend runs a strict 120-second timer. The backend penalizes responses that are too fast (<30%) or slow/overtime.
-5. **Adaptive Difficulty:** A sliding-window system (last 3 questions) increases difficulty for strong responses and reduces it for weak ones.
-6. **Early Termination:** Terminates early if the candidate provides no response, goes significantly over time, or performs poorly consecutively.
-7. **Comprehensive Report:** Produces a Final Interview Readiness Score (0–100), category breakdowns, and LLM-generated qualitative feedback (Strengths, Weaknesses, Hiring Readiness).
 
 ---
 
